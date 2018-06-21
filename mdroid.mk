@@ -8,6 +8,9 @@ $(call inherit-product, vendor/mdroid/config/common_full_phone.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
+#Build Type
+MDROID_BUILDTYPE=OFFICIAL 
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
 PRODUCT_NAME := mdroid_potter
