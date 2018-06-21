@@ -9,7 +9,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
 #Build Type
-MDROID_BUILDTYPE=OFFICIAL 
+MDROID_BUILDTYPE := Official
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
